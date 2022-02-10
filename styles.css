@@ -1,0 +1,305 @@
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Main Styling */
+html,body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 1.5em;
+
+
+}
+
+a{
+    color: #D3B1C2;
+    text-decoration: none;
+}
+
+h1,h2,h3{
+    padding-bottom:20px ;
+    color: #613659;
+
+}
+
+p{
+    margin: 10px 0;
+    font-size: xx-large;
+    
+}
+
+.container{
+    margin: auto;
+    max-width: 1100px;
+    overflow: auto;
+    padding: 0 20px;
+    
+}
+
+.text-primary{
+    color: #613659;
+
+}
+
+.lead{
+    font-size: 20px;
+    color: #613659;
+}
+
+.btn{
+    display: inline-block;
+    font-size: 18px;
+    color: #fff;
+    background: #D3B1C2;
+    padding: 13px 20px;
+    border: none;
+    cursor: pointer;
+
+}
+
+.btn-light{
+    background: #f4f4f4;
+    color: #333;
+}
+
+.bg-dark{
+    background: #D3B1C2;
+    color: #fff;
+}
+
+.bg-light{
+    background: #f4f4f4;
+    color: #333;
+}
+
+.bg-primary{
+    background: #D3B1C2;
+    color: #f4f4f4;
+}
+
+.btn:hover{
+    background: #613659;
+    color:#C197D2;
+}
+
+.clr{
+    clear: both;
+}
+
+.l-heading{
+    font-size:40px ;
+}
+/* Navbar */
+#navbar{
+    background: #D3B1C2;
+    color: #fff ;
+    /* so it keeps showing */
+    overflow: auto;
+}
+
+#navbar a{
+    color: #fff;
+
+}
+
+#navbar h1{
+    float: left;
+    padding-top: 20px;
+}
+
+#navbar ul{
+    list-style: none;
+    float: right;
+}
+
+#navbar ul li{
+    float: left;
+}
+
+#navbar ul li a{
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+#navbar ul li a:hover ,#navbar ul li a.current{
+    background: #613659;
+    color: #C197D2;
+}
+
+
+
+/* showcase */
+#showcase{
+    background: url('./img/food1.jpg') no-repeat center center/cover;
+    height: 1100px;
+}
+
+#showcase .showcase-content{
+    color: #fff;
+    text-align: center;
+    padding-top: 170px;
+
+}
+
+#showcase .showcase-content h1{
+    font-size: 60px;
+    line-height: 1.2em;
+
+}
+
+#showcase .showcase-content p{
+    padding-bottom: 20px;
+    line-height: 1.5em;
+}
+
+/* Home */
+#home-info{
+    height:640px;
+
+}
+
+#home-info .info-img{
+    float:left;
+    width: 50%;
+    background: url('./img/food2.jpg');
+    height: 100%;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#home-info .info-content{
+    float: right;
+    width:50%;
+    height: 100%;
+    text-align: center;
+    padding:50px 30px ;
+    overflow: hidden;
+}
+
+#home-info .info-content p{
+    padding-bottom: 30px;
+}
+
+/* Features */
+.box {
+    float:left;
+    width: 33.3%;
+    padding:50px;
+    text-align: center;
+    border: #613659 solid 4px;
+    border-radius: 3px;
+
+}
+
+.box i{
+    margin-bottom: 10px;
+
+}
+
+/* About Us */
+#about-info .info-right{
+    float: right;
+    width: 50%;
+    min-height: 100%;
+    
+
+}
+#about-info .info-right img{
+    display: block;   
+    margin: auto; 
+    width: 70%;
+    height: 340px;
+    border-radius:50%; 
+}
+
+#about-info .info-left{
+    float: left;
+    width: 50%;
+    min-height: 100%;
+    
+}
+
+/* padding */
+.py-1{
+    padding: 20px 0;
+
+}
+.py-2{
+    padding: 10px 0;
+    
+}
+.py-3{
+    padding: 30px 0;
+    
+}
+
+/* Testimonials */
+#testimonials{
+    height: 800px;
+    /* background: #D3B1C2; */
+    background: url(./img/test-bg.jpg) no-repeat center center/cover;
+    padding-top: 40px;
+}
+
+#testimonials .testimonial img{
+    width: 100px;
+    float: left;
+    margin-right:20px ;
+    border-radius: 5px;
+    opacity: 0.9;
+
+}
+
+#testimonials  h2{
+    color: #211522;    
+    background: #613659;
+    text-align: center;
+    padding-bottom:40px;
+    margin-bottom: 20px;
+    padding-top: 40px;
+    border-radius: 5px;
+    opacity:0.9;
+}
+
+#testimonials .testimonial{
+    padding: 20px;
+    margin-bottom: 40px;
+    border-radius: 5px;
+    opacity:0.9;
+
+}
+
+/* Conatct */
+#contact-form .form-group{
+    margin-bottom: 20px;
+
+}
+
+#contact-form label{
+    display: block;
+    margin-bottom: 5px;
+}
+
+#contact-form input, 
+#contact-form textarea{
+    width: 100%;
+    padding :10px;
+    border: 1px #ddd solid;
+}
+
+#contact-form input:focus, 
+#contact-form textarea:focus{
+    outline: none;
+    border-color: #D3B1C2;
+}
+
+/* Footer */
+#main-footer{
+    text-align: center;
+    /* background: #D3B1C2 ; */
+    color: #613659;
+}
+
